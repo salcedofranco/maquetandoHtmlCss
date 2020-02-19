@@ -114,6 +114,12 @@ div.cont-tabla{
     
 }
 
+@media (max-width:576px){
+    .cont-tabla{
+        width: 100%;
+    }
+}
+
 .cont-tabla table{
     width: 100%;
     text-align: center;
@@ -121,6 +127,12 @@ div.cont-tabla{
 
 .cont-tabla table td{
     padding: 40px 20px;
+}
+
+@media (max-width: 576px){
+    .img-tabla{
+        width: 100%!important;
+    }
 }
 
 div.img-tabla{
