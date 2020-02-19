@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Web</title>
-    <link rel="stylesheet" href="css/styles.css"  type="text/css"> 
+    <link rel="stylesheet" href="css/styles.css"  type="text/css">
+    <link rel="stylesheet" href="css/animate.css"  type="text/css"> 
+    
+    <script src="js/wow.min.js"></script>
+
+    <script>new WOW().init();</script>
+
     <link href="https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap" rel="stylesheet">
     
 
@@ -13,15 +19,15 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li class="wow bounceInDown" data-wow-duration="2s" data-wow-delay=".5s"><a href="#">Inicio</a></li>
+            <li class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="1s"><a href="#">Blog</a></li>
+            <li class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="1.5s"><a href="#">Contacto</a></li>
         </ul>
     </nav>
     <header>
         <div class="contenedor">
             <div class="contenedor-titulo">
-                <h1>Turismo Mendoza</h1>
+                <h1 class="wow bounceInRight" data-wow-duration="3s" data-wow-delay="2s">Turismo Mendoza</h1>
 
             </div>
         </div>
