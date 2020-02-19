@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+body{
+    background: #ffffff;
+}
+
+header{
+    background: linear-gradient(
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.2),
+        rgba(0,0,0,.6)), url('../img/turismo3.jpg');
+
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+
+
+nav{
+    position: fixed;
+    width:100%;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all .3s ease;
+
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+nav ul li:hover a{
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+
+
+/*----------------------- header ----------------------------*/
+
+.contenedor-titulo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-titulo h1{
+    font-size: 48px;
+    color: #ffffff;
+    border: 10px double #fff;
+    padding: 70px 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+article{
+    padding-top: 50px;
+    text-align: center;
+    border-bottom: 5px dotted gray;
+    margin-bottom:20px ;
+
+}
+
+article h3{
+    font-size: 32px;
+    padding: 0 0 30px 0;
+}
+article p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+blockquote{
+    font-size: 18px;
+
+}
+
+.tabla{
+    padding-bottom: 20px ;
+}
+
+div.cont-tabla{
+    width: 50%;
+    float: left;
+    display: inline-block;
+    
+}
+
+.cont-tabla table{
+    width: 100%;
+    text-align: center;
+}
+
+.cont-tabla table td{
+    padding: 40px 20px;
+}
+
+div.img-tabla{
+width: 50%;
+display: inline-block;
+height: 300px;
+overflow: hidden;
+
+}
+.img-tabla img{
+    width: 100%;
+}
+
+
+/*-----------------------  ----------------------------*/
+.llamada{
+    background: url('../img/leñas.jpg');
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+.llamada-texto{
+    text-align: center;
+}
+
+.llamada-texto h3{
+    font-size: 32px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.llamada-texto button{
+    padding:10px 20px;
+    margin-top: 20px;
+    border: none;
+    background: rgb(68, 185, 64);
+    color: #ffffff;
+    border-radius: 2px;
+    transition: all .3s easy;
+}
+/*-----------------------footer  ----------------------------*/
+
+button:hover{
+transform: scale(1.1);
+}
+
+footer{
+    height: 50px;
+    background: rgb(75, 75, 75);
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer p{
+   color: #fff;
+}
+
+
